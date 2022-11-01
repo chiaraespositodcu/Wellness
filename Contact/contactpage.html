@@ -37,7 +37,7 @@ healthy workplace, employee engagement" />
 <div class="section" style="margin-bottom: 20%; display: flex;">
         <!--Contact form-->
         <div style="text-align: left;">
-            <form action="request.php" method="get">
+            <form action="request.php" method="post">
                 <h5>Contact Form</h5>
                 <p>First Name:
                     <input type="text" name="firstname" size="15" maxlength="30">
@@ -55,9 +55,8 @@ healthy workplace, employee engagement" />
                     <option value="requestdemo">Request a Demo</option>
                 </select></p>
                 <p>Message:</p>
-                <textarea name="request" cols="50" rows="10"></textarea></br>
-                <script src="../JS/javascript.js"></script>
-                <input type="submit" name="Submit" value="Submit" onsubmit="confirmationMessage()">
+                <textarea name="request" cols="50" rows="10"></textarea></br> 
+                <input type="submit" name="Submit" value="Submit">
           
             </form>
            </div>
