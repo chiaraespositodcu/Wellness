@@ -1,4 +1,4 @@
-<code><!DOCTYPE html>
+<!DOCTYPE html>
 <body>
 
 Welcome <?php echo $_POST["firstname"]; ?><br>
@@ -10,4 +10,4 @@ We have received your enquiry and will get in contact with you soon.
 <a href="../index.html">Back to homepage</a>
 
 </body>
-</html></code>
+</html>
